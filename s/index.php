@@ -18,7 +18,7 @@
 		{
 			$row=mysqli_fetch_assoc($result);
 			$new_count=$row['count']+1;
-			$sql="UPDATE `urls` SET `count`='".$new_count."' WHERE 1" ;
+			$sql="UPDATE `urls` SET `count`='".$new_count."' WHERE `small`='".$q."';" ;
 			$result=mysqli_query($conn,$sql);
 			header("Location:". $row['big']);
 		}
