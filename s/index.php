@@ -17,9 +17,10 @@
 		if($num>0)
 		{
 			$row=mysqli_fetch_assoc($result);
-			$sql="UPDATE urls SET count=".$row['count']+1 ." WHERE small=".$q.";" ;
+			$sql="UPDATE urls SET count=5 WHERE small=".$q.";" ;
 			$result=mysqli_query($conn,$sql);
-			header("Location:". $row['big']);
+			
+			//header("Location:". $row['big']);
 		}
 		else
 		{
