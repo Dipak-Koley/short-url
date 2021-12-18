@@ -17,10 +17,10 @@
 		if($num>0)
 		{
 			$row=mysqli_fetch_assoc($result);
-			echo $result['count']+1;
+			$n=$row['count']+1;
+			echo $n;
 			$sql="UPDATE `urls` SET `count`='5' WHERE 1" ;
 			$result=mysqli_query($conn,$sql);
-
 			//header("Location:". $row['big']);
 		}
 		else
