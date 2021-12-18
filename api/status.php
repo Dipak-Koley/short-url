@@ -1,9 +1,13 @@
 <?php
     require('../connection.php');
-    $sql="select * from urls";
-    $res=mysqli_query($con,$sql);
-    $count=mysqli_num_rows($res);
-    if($count>0)
+    $sql = "SELECT * FROM urls;";
+    $result=mysqli_query($conn,$sql);
+    if(!$result)
+    {
+        die(mysqli_error($conn));
+    }
+    $num=mysqli_num_rows($result);
+    if($num>0)
     {
         while($row=mysqli_fetch_assoc($res)){
             $arr[]=$row;
