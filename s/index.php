@@ -1,4 +1,9 @@
 <?php 
+	//created and developed by Dipak Koley
+	//This page will be used for short url to long url redirect
+	//It will redirect and also increment the counter to count the number of hit.
+	//If the link is invalid it will pun an 404 error.
+	
 	require('../connection.php');
 	if(!isset($_GET['q']))
 	{
