@@ -10,7 +10,7 @@
     if($num>0)
     {
         while($row=mysqli_fetch_assoc($result)){
-            $arr[]=$row;
+            $array[]=$row;
         }
         echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
     }
