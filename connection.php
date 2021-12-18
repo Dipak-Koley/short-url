@@ -1,16 +1,4 @@
 <?php 
-echo "This is working!";
-
-/*
-$client = new MongoDB\Client(
-	    'mongodb+srv://dipak:dbpassword@cluster0.rd4rg.mongodb.net/link?retryWrites=true&w=majority');
-
-$db = $client->test;
- */
-
-
-
-
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -36,19 +24,4 @@ $db = $client->test;
              $row=mysqli_fetch_assoc($result);
 	     echo var_dump($row);
 	}
-	
-
-
-	//$sql = "SELECT * from users";
-	/*
-	if ($mysqli -> connect_errno) {
-		  echo "Failed to connect to MySQL";
-		  exit();
-	}
-	if ($result = $mysqli -> query($sql)) {
-		  while ($row = $result -> fetch_row()) {
-		    printf ("%s (%s)\n", $row[0], $row[1]);
-		  }
-		  $result -> free_result();
-	}*/
 ?>
