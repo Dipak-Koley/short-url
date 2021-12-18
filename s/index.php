@@ -1,5 +1,5 @@
 <?php 
-echo "This (short to big ) is working!";
+	//echo "This (short to big ) is working!";
 	require('../connection.php');
 	$q=$_GET['q'];
 	$sql = "SELECT * FROM urls where small=".$q.";";
@@ -12,7 +12,8 @@ echo "This (short to big ) is working!";
 	if($num>0)
 	{
         $row=mysqli_fetch_assoc($result);
-	    echo var_dump($row);
-		echo $row['big'];
+	    //echo var_dump($row);
+		//echo $row['big'];
+		header("Location:". $row['big']);
 	}
 ?>
