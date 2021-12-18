@@ -8,9 +8,9 @@
         while($row=mysqli_fetch_assoc($res)){
             $arr[]=$row;
         }
-        echo json_encode($['status'=>true,'data'=>$array,'result'=>'found']);
+        echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
     }
     else{
-        echo json_encode($['status'=>true,'data'=>$array,'No data found'=>'found']);
+        echo json_encode(['status'=>true,'data'=>$array,'No data found'=>'found']);
     }
 ?>
