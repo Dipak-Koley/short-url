@@ -11,7 +11,7 @@ echo "This (short to big ) is working!";
 	if($num>0)
 	{
         $row=mysqli_fetch_assoc($result);
-	    // echo var_dump($row);
+	    echo var_dump($row);
 		echo $row['small'];
 	}
 ?>
