@@ -1,6 +1,10 @@
 <?php 
 	require('../connection.php');
 	$q=$_GET['q'];
+	if(!isset($_GET['q']))
+	{
+		echo "<br><br><br><br><h1><font color='red'><center>ERROR 404!</center></font></h1>";
+	}
 	$sql = "SELECT * FROM urls where small=".$q.";";
 	$result=mysqli_query($conn,$sql);
 	if(!$result)
