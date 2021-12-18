@@ -9,7 +9,7 @@
     $num=mysqli_num_rows($result);
     if($num>0)
     {
-        while($row=mysqli_fetch_assoc($res)){
+        while($row=mysqli_fetch_assoc($result)){
             $arr[]=$row;
         }
         echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
