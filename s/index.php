@@ -1,7 +1,8 @@
 <?php 
 echo "This (short to big ) is working!";
 	require('../connection.php');
-	$sql = "SELECT * FROM urls;";
+	$q=$_GET['q'];
+	$sql = "SELECT * FROM urls where small=".$q.";";
 	$result=mysqli_query($conn,$sql);
 	if(!$result)
 	{
@@ -12,6 +13,6 @@ echo "This (short to big ) is working!";
 	{
         $row=mysqli_fetch_assoc($result);
 	    echo var_dump($row);
-		echo $row['small'];
+		echo $row['big'];
 	}
 ?>
