@@ -1,5 +1,4 @@
 <?php 
-	//echo "This (short to big ) is working!";
 	require('../connection.php');
 	$q=$_GET['q'];
 	$sql = "SELECT * FROM urls where small=".$q.";";
@@ -12,8 +11,10 @@
 	if($num>0)
 	{
         $row=mysqli_fetch_assoc($result);
-	    //echo var_dump($row);
-		//echo $row['big'];
 		header("Location:". $row['big']);
+	}
+	else
+	{
+		echo "<br><br><br><br><h1><font color='red'><center>ERROR 404!</center></font></h1>";
 	}
 ?>
