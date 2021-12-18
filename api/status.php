@@ -1,5 +1,6 @@
 <?php
     require('../connection.php');
+    header('content-type','application/josn');
     $sql = "SELECT * FROM urls;";
     $result=mysqli_query($conn,$sql);
     if(!$result)
@@ -15,6 +16,6 @@
         echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
     }
     else{
-        echo json_encode(['status'=>true,'data'=>$array,'No data found'=>'found']);
+        echo json_encode(['status'=>true,'data'=>'No data found', 'result'=>'not']);
     }
 ?>
