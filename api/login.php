@@ -10,8 +10,7 @@
     while($row=mysqli_fetch_assoc($result)){
         $array[]=$row;
     }
-    console.log(json_encode(['status'=>true,'data'=>$array,'result'=>'found']));
-
+    echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
     $check=mysqli_num_rows($result);
     if($check==0)
     {
