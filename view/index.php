@@ -35,13 +35,16 @@
         <div class="max-width">
             <div class="logo"><a href="#"><span>URL Shortner</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 
-                
                 <?php
+
                     if(isset($_SESSION['user_id']))
+                    {
+                        echo '<li><a href="#home" class="menu-btn">Dashboard</a></li>';
+                        echo '<li><a href="#home" class="menu-btn">Short URL</a></li>';
                         echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn">Log Out</a></li>';
+                    }
                     else
                         echo '<li><a class="g-signin2" data-onsuccess="gmailLogIn">Login with Google</a></li>';
                 ?>
