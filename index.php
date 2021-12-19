@@ -1,3 +1,3 @@
-<?php echo "<b>hello! our server is ready!</b>";
-	echo phpinfo();
+<?php 
+	header('location: /view/");
 ?>
