@@ -4,7 +4,7 @@
     $user=mysqli_real_escape_string($conn,$_POST['user_id']);
     $name=$_POST['name'];
     $email=$_POST['email'];
-    $email=$_POST['image'];
+    $image=$_POST['image'];
     $user_id=$_POST['user_id'];
     //$email=mysqli_real_escape_string($conn,$_POST['email']);
     
