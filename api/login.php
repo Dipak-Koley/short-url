@@ -7,10 +7,10 @@
     $result=mysqli_query($conn,"select * from users where user_id like '$user_id'");
     
     
-    while($row=mysqli_fetch_assoc($result)){
+    /*while($row=mysqli_fetch_assoc($result)){
         $array[]=$row;
     }
-    echo json_encode(['data'=>$array]);
+    echo json_encode(['data'=>$array]);*/
     $check=mysqli_num_rows($result);
     if($check==0)
     {
