@@ -44,10 +44,10 @@
                         echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn">Log Out</a></li>';
                     }
                     else
-                        echo '<li><a class="g-signin2" data-onsuccess="gmailLogIn">Login with Google</a></li>';
+                        echo '<li><a class="g-signin2" id="login-btn" data-onsuccess="gmailLogIn">Login with Google</a></li>';
                 ?>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#teams" class="menu-btn">About Develoopers</a></li>
+                <li><a href="#teams" class="menu-btn">About Team</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -66,7 +66,16 @@
 				</div>
 				<br>
 				<br>
-                <a href="#">Click Here to get started!</a>
+                <?php
+                    if(isset($_SESSION['user_id']))
+                    {
+                        echo '<div class="text-1 gray" ><b>Welcome, <font color="red">'.$_SESSION["name"].'</font></b></div>';
+                    }
+                    else
+                    {
+                        echo '<a onclick="document.getElementById(`login-btn`).click()">Click Here to get started!</a>';
+                    }
+                ?>
             </div>
         </div>
     </section>
