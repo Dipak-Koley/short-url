@@ -12,4 +12,16 @@ function gmailLogIn(userInfo){
 function logout(){
     var auth = gapi.auth2.getAuthInstance();
     auth.signOut();
+    window.location.href="index.php";
+    jQuery.ajax({
+        url:'../api/logout.php',
+        success: function(result){
+            window.location.href="index.php";
+        }
+    });
+}
+function onLoad(){
+    gapi.load('auth2',function(){
+        gapi.auth2.init();
+    });
 }
