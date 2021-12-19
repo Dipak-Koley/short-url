@@ -4,7 +4,15 @@
     $email=mysqli_real_escape_string($conn,$_POST['email']);
     $user_id=mysqli_real_escape_string($conn,$_POST['user_id']);
     $image=mysqli_real_escape_string($conn,$_POST['image']);
-    $check=mysqli_num_rows(mysqli_query($conn,"select * from users where user_id='$user_id'"));
+    $result=mysqli_query($conn,"select * from users where name like '$name'");
+    
+    
+    while($row=mysqli_fetch_assoc($result)){
+        $array[]=$row;
+    }
+    echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
+
+    $check=mysqli_num_rows($results);
     if($check==0)
     {
         echo "done";
