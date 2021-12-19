@@ -37,7 +37,14 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#Login" class="menu-btn">Login with Google</a></li>
+                
+                
+                <?php
+                    if(isset($_SESSION['user_id']))
+                        echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn">Log Out</a></li>';
+                    else
+                        echo '<li><a href="#Login" class="menu-btn" data-onsuccess="gmailLogIn">Login with Google</a></li>';
+                ?>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
