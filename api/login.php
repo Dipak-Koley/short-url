@@ -24,7 +24,7 @@
         echo $name;
         echo $email;
         echo $image;
-        mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('141','".$name."','".$email."','".$image."')");
+        mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('".$user_id."','".$name."','".$email."','".$image."')");
     }
     
 ?>
