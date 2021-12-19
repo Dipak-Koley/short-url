@@ -15,7 +15,7 @@
     if($check==0)
     {
         echo "done";
-        mysqli_query($conn,"INSERT INTO 'users'('user_id','name','email','image') VALUES ('$user_id','$name','$email','$image');");
+        mysqli_query($conn,"INSERT INTO users('user_id','name','email','image') VALUES ('$user_id','$name','$email','$image');");
     }
     
 ?>
