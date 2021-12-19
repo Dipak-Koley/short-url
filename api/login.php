@@ -1,11 +1,15 @@
 <?php
     require('../connection.php');
     //$name=mysqli_real_escape_string($conn,$_POST['name']);
+    $user=mysqli_real_escape_string($conn,$_POST['user_id']);
     $name=$_POST['name'];
-    $email=mysqli_real_escape_string($conn,$_POST['email']);
-    $user_id=mysqli_real_escape_string($conn,$_POST['user_id']);
-    $image=mysqli_real_escape_string($conn,$_POST['image']);
-    $result=mysqli_query($conn,"select * from users where user_id like '$user_id'");
+    $email=$_POST['email'];
+    $email=$_POST['image'];
+    $user_id=$_POST['user_id'];
+    //$email=mysqli_real_escape_string($conn,$_POST['email']);
+    
+    //$image=mysqli_real_escape_string($conn,$_POST['image']);
+    $result=mysqli_query($conn,"select * from users where user_id like '$user'");
     
     
     /*while($row=mysqli_fetch_assoc($result)){
@@ -20,7 +24,7 @@
         echo $name;
         echo $email;
         echo $image;
-        mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('555','".$name."','y','x')");
+        mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('141','".$name."','".$email."','".$image."')");
     }
     
 ?>
