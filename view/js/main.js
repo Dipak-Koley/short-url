@@ -20,15 +20,16 @@ function logout(){
         }
     });
 }
+function onLoad(){
+    gapi.load('auth2',function(){
+        gapi.auth2.init();
+    });
+}
+
 function status(){
     jQuery.ajax({
         success: function(result){
             window.location.href="status.php";
         }
-    });
-}
-function onLoad(){
-    gapi.load('auth2',function(){
-        gapi.auth2.init();
     });
 }
