@@ -23,7 +23,7 @@ function logout(){
 function status(){
     jQuery.ajax({
         success: function(result){
-            window.location.href="../status.php";
+            window.location.href="status.php";
         }
     });
 }
