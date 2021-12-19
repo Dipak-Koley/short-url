@@ -5,7 +5,7 @@ function gmailLogIn(userInfo){
         type: 'post',
         data: 'user_id='+userProfile.getId()+'&name='+userProfile.getName()+'&image=' +userProfile.getImageUrl()+'&email=' +userProfile.getEmail(),
         success: function(result){
-            window.location.href="index.php";
+            window.location.href="../index.php";
         }
     });
 }
@@ -16,7 +16,7 @@ function logout(){
     jQuery.ajax({
         url:'../api/logout.php',
         success: function(result){
-            window.location.href="index.php";
+            window.location.href="../index.php";
         }
     });
 }
