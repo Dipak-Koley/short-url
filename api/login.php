@@ -16,6 +16,10 @@
     if($check==0)
     {
         echo "done";
+        echo $user_id;
+        echo $name;
+        echo $email;
+        echo $image;
         mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('".$user_id."','".$name."','".$email."','".$image."')");
     }
     
