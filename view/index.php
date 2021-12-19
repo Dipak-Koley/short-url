@@ -43,7 +43,7 @@
                     if(isset($_SESSION['user_id']))
                         echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn">Log Out</a></li>';
                     else
-                        echo '<li><a class="g-signin2 menu-btn" data-onsuccess="gmailLogIn">Login with Google</a></li>';
+                        echo '<li><a class="g-signin2" style="color:red;" data-onsuccess="gmailLogIn">Login with Google</a></li>';
                 ?>
             </ul>
             <div class="menu-btn">
