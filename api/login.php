@@ -12,7 +12,7 @@
     }
     console.log(json_encode(['status'=>true,'data'=>$array,'result'=>'found']));
 
-    $check=mysqli_num_rows($results);
+    $check=mysqli_num_rows($result);
     if($check==0)
     {
         echo "done";
