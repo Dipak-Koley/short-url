@@ -1,7 +1,7 @@
 function gmailLogIn(userInfo){
     var userProfile=userInfo.getBasicProfile();
     jQuery.ajax({
-        url:'localhost/w/api/login.php',
+        url:'../../api/login.php',
         type: 'post',
         data: 'user_id='+userProfile.getId()+'&name='+userProfile.getName()+'image=' +userProfile.getImageUrl()+'email=' +userProfile.getEmail(),
         success: function(result){
