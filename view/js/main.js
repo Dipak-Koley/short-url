@@ -1,9 +1,13 @@
 function gmailLogIn(userInfo){
     var userProfile=userInfo.getBasicProfile();
-    console.log(userProfile.getId());
-    console.log(userProfile.getName());
-    console.log(userProfile.getImageUrl());
-    console.log(userProfile.getEmail());
+    jQuery.ajax({
+        url:'../../api/login.php',
+        type: 'post',
+        data: 'user_id='+userProfile.getId()+'&name='+userProfile.getName()+'image=' +userProfile.getImageUrl()+'email=' +userProfile.getEmail(),
+        success: function(result){
+            console.log(result)
+        }
+    });
 }
 function logout(){
     var auth = gapi.auth2.getAuthInstance();
