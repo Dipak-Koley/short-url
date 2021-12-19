@@ -8,7 +8,7 @@
     if($check==0)
     {
         echo "done";
-        mysqli_query($conn,"insert into users(name,email,image,user_id) values('$name','$email','$image','$user_id')");
+        mysqli_query($conn,"INSERT INTO `users`(`user_id`, `name`, `email`, `image`) VALUES ('$user_id','$email','$user_id','$values')");
     }
     
 ?>
