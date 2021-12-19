@@ -35,8 +35,6 @@
         <div class="max-width">
             <div class="logo"><a href="#"><span>URL Shortner</span></a></div>
             <ul class="menu">
-                <li><a href="#about" class="menu-btn">About</a></li>
-                
                 <?php
 
                     if(isset($_SESSION['user_id']))
@@ -48,6 +46,8 @@
                     else
                         echo '<li><a class="g-signin2" data-onsuccess="gmailLogIn">Login with Google</a></li>';
                 ?>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#teams" class="menu-btn">About Develoopers</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
