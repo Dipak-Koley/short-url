@@ -73,9 +73,7 @@
                     }
                     else
                     {
-                        $p='login-btn';
-                        $t=`onclick="document.getElementById('`.$p.`').click()"`;
-                        echo '<a '.$t.'>Click Here to get started!</a>';
+                        echo '<a>Click Here to get started!</a>';
                     }
                 ?>
             </div>
