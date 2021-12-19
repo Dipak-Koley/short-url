@@ -1,3 +1,8 @@
+<?php
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,8 +19,12 @@
                 This is name
             </div>
             <div class="tab">
-                <div class="g-signin2" data-onsuccess="gmailLogIn"></div>
-                <a href="javascript:void(0)" onclick="logout()">Logout</a>
+                <?php
+                    if(isset($_SESSION['user_id']))
+                        echo '<div class="g-signin2" data-onsuccess="gmailLogIn"></div>';
+                    else
+                        echo '<a href="javascript:void(0)" onclick="logout()">Logout</a>';
+                ?> 
             </div>
         </div>
         <div class="content">
