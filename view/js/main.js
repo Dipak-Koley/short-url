@@ -1,3 +1,4 @@
 function gmailLogIn(userInfo){
-    console.log();
+    var userProfile=userInfo.getBasicProfile();
+    console.log(userProfile)
 }
