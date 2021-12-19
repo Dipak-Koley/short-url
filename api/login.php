@@ -20,7 +20,7 @@
         echo $name;
         echo $email;
         echo $image;
-        mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('".$user_id."','".$name."','y','x')");
+        mysqli_query($conn,"INSERT INTO users(user_id,name,email,image) VALUES ('555','".$name."','y','x')");
     }
     
 ?>
