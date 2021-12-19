@@ -1,0 +1,23 @@
+.nav{
+    height: 50px;
+    background-color: blue;
+}
+.content{
+    background-color: coral;
+}
+.name{
+    background-color: cyan;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.tab{
+    background-color: darkkhaki;
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
