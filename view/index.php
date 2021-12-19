@@ -20,9 +20,9 @@
             <div class="tab">
                 <?php
                     if(isset($_SESSION['user_id']))
-                        echo '<div class="g-signin2" data-onsuccess="gmailLogIn"></div>';
-                    else
                         echo '<a href="javascript:void(0)" onclick="logout()">Logout</a>';
+                    else
+                        echo '<div class="g-signin2" data-onsuccess="gmailLogIn"></div>';
                 ?> 
             </div>
         </div>
