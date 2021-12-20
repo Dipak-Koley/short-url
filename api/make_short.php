@@ -6,7 +6,8 @@ $urls = explode(',', $_POST['url']);
   foreach ($urls as $i) 
   {
     $k=mysqli_real_escape_string($conn,$i);
-    $result=mysqli_query($conn,"select * from urls where big like '$k'");
+    $u=mysqli_real_escape_string($conn,$_SESSION['user_id']);
+    $result=mysqli_query($conn,"select * from urls where big like '$k' and user_id like '$u'");
     $check=mysqli_num_rows($result);
     if($check==0)
     {
