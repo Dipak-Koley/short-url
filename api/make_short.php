@@ -6,7 +6,8 @@ $urls = explode(',', $_POST['url']);
   {
     echo $i;
     echo " ";
-    $result=mysqli_query($conn,"select * from urls where big like".$i);
+    $k=mysqli_real_escape_string($conn,$i);
+    $result=mysqli_query($conn,"select * from urls where big like '$k'");
     $check=mysqli_num_rows($result);
     if($check==0)
     {
