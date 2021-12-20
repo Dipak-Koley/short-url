@@ -31,11 +31,13 @@
             <td>".$row['big']."</td>
             <td>".$base.$row['small']."</td>
             <td>".$row['count']."</td>
-          </tr></table>";
+          </tr>";
         }
     }
-    else echo "</table><center><font color='red';><h1>NO DATA FOUNT</H1></FONT></CENTER>";
 ?>
+
+</table>
+
 </body>
 </html>
 
