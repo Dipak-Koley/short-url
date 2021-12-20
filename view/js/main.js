@@ -28,6 +28,7 @@ function onLoad(){
 
 function status(){
     jQuery.ajax({
+        url:'../api/status.php',
         success: function(result){
             window.location.href="status.php";
         }
