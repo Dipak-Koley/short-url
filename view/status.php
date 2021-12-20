@@ -37,9 +37,6 @@
 ?>
 
 </table>
-<?php echo "result ";
-  echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
-?>
 </body>
 </html>
 
