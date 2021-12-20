@@ -1,6 +1,6 @@
 <?php
     session_start();
-   // require('../api/status.php');
+    require('../api/status.php');
 ?>
 <html>
     <head>
