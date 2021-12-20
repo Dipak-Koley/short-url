@@ -14,7 +14,7 @@
 <body>
 
 <center><h1><font color="#b50505"><b>Dashboard</b></font></h1></center>
-<?php echo $result; ?>
+<?php echo "result".$result; ?>
 <table id="status_table">
   <tr>
     <th>Company</th>
