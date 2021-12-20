@@ -46,8 +46,8 @@
                     else
                         echo '<li><a class="g-signin2" id="login-btn" data-onsuccess="gmailLogIn">Login with Google</a></li>';
                 ?>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#teams" class="menu-btn">About Team</a></li>
+                <li><a href="#about" class="menu-btn"><font color="red">About</font></a></li>
+                <li><a href="#teams" class="menu-btn"><font color="red">About Team</font></a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
