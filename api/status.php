@@ -1,7 +1,8 @@
 <?php
     require('../connection.php');
     header('content-type','application/josn');
-    $sql = "SELECT * FROM urls;";
+    $user_id='1';
+    $sql = "SELECT * FROM urls where user_id=".$user_id.";";
     $result=mysqli_query($conn,$sql);
     if(!$result)
     {
