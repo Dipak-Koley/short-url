@@ -3,41 +3,34 @@
 ?>
 <html>
     <head>
-    <link rel="stylesheet" href="./css/status.css">
+            <link rel="stylesheet" href="./css/status.css">
     </head>
-    <body>
-    <div class="container">
-    <h2>Responsive Tables Using LI <small>Triggers on 767px</small></h2>
-    <ul class="responsive-table">
-        <li class="table-header">
-        <div class="col col-1">Job Id</div>
-        <div class="col col-2">Customer Name</div>
-        <div class="col col-3">Amount Due</div>
-        <div class="col col-4">Payment Status</div>
-        </li>
-        <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42235</div>
-        <div class="col col-2" data-label="Customer Name">John Doe</div>
-        <div class="col col-3" data-label="Amount">$350</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        </li>
-        <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42442</div>
-        <div class="col col-2" data-label="Customer Name">Jennifer Smith</div>
-        <div class="col col-3" data-label="Amount">$220</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        </li>
-        <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42257</div>
-        <div class="col col-2" data-label="Customer Name">John Smith</div>
-        <div class="col col-3" data-label="Amount">$341</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        </li>
-        <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42311</div>
-        <div class="col col-2" data-label="Customer Name">John Carpenter</div>
-        <div class="col col-3" data-label="Amount">$115</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        </li>
-    </ul>
-    </div>
+<body>
+
+<center><h1><font color="#b50505"><b>Dashboard</b></font></h1></center>
+
+<table id="status_table">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Avul Pakir Jainsation (DRDO) and Indian</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Avul Pakir Jainularganisation (DRDO) and Indian</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+    <td>Germany</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+

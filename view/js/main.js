@@ -16,7 +16,7 @@ function logout(){
     jQuery.ajax({
         url:'../api/logout.php',
         success: function(result){
-            window.location.href="../index.php";
+            window.location.href="index.php";
         }
     });
 }
