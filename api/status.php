@@ -1,8 +1,8 @@
 <?php
+    session_start();
     require('../connection.php');
     header('content-type','application/josn');
-    $user_id='1';
-    $sql = "SELECT * FROM urls where user_id=".$user_id." order by small desc;";
+    $sql = "SELECT * FROM urls where user_id=".$_SESSION['user_id']." order by small desc;";
     $result=mysqli_query($conn,$sql);
     if(!$result)
     {
