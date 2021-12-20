@@ -14,9 +14,9 @@
         while($row=mysqli_fetch_assoc($result)){
             $array[]=$row;
         }
-        echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
+        //echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
     }
-    else{
+    /*else{
         echo json_encode(['status'=>true,'data'=>'No data found', 'result'=>'not']);
-    }
+    }*/
 ?>

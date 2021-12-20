@@ -1,11 +1,6 @@
 <?php
     session_start();
-    $url="../api/status.php";
-    $ch=curl_init();
-    curl_setopt($ch,CURLOPT_URL,$url);
-    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-    $result=curl_exec($ch);
-    curl_close($ch);
+    require('../api/status.php');
 ?>
 <html>
     <head>
@@ -14,7 +9,9 @@
 <body>
 
 <center><h1><font color="#b50505"><b>Dashboard</b></font></h1></center>
-<?php echo "result".$result; ?>
+<?php echo "result ";
+  echo json_encode(['status'=>true,'data'=>$array,'result'=>'found']);
+?>
 <table id="status_table">
   <tr>
     <th>Company</th>
