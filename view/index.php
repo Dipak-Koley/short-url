@@ -40,7 +40,7 @@
                     if(isset($_SESSION['user_id']))
                     {
                         echo '<li><a href="javascript:void(0)" onclick="status()" class="menu-btn">Dashboard</a></li>';
-                        echo '<li><a href="#home" class="menu-btn">Short URL</a></li>';
+                        echo '<li><a href="javascript:void(0)" onclick="short_url()" class="menu-btn">Short URL</a></li>';
                         echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn">Log Out</a></li>';
                     }
                     else

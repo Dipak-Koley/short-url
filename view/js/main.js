@@ -35,3 +35,7 @@ function status(){
     });*/
     window.location.href="status.php";
 }
+
+function short_url(){
+     window.location.href="make_short.html";
+ }
