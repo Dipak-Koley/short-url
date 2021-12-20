@@ -27,10 +27,11 @@ function onLoad(){
 }
 
 function status(){
-    jQuery.ajax({
+    /*jQuery.ajax({
         url:'../api/status.php',
         success: function(result){
             window.location.href="status.php";
         }
-    });
+    });*/
+    window.location.href="status.php";
 }
