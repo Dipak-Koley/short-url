@@ -2,7 +2,7 @@
     require('../connection.php');
     header('content-type','application/josn');
     $user_id='1';
-    $sql = "SELECT * FROM urls where user_id=".$user_id.";";
+    $sql = "SELECT * FROM urls where user_id=".$user_id." order by small desc;";
     $result=mysqli_query($conn,$sql);
     if(!$result)
     {
