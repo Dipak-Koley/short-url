@@ -87,12 +87,12 @@
             <div class="about-content">
                
                 <div class="centre">
-                    <div class="text">URL shortening is a method at the
+                    <div class="text"><p align="justify">URL shortening is a method at the
 World Wide Web wherein a Uniform Resource Locator (URL)
 can be made significantly shorter and nonetheless direct to the
 specified web page. This is carried out with the aid of using the
-usage of a redirect which hyperlinks to  the net<br> web page that
-has an extended URL. For example, the URL.<span class="typing-2"></span></div>
+usage of a redirect which hyperlinks to  the netweb page that
+has an extended URL. For example, the URL.</p><span class="typing-2"></span></div>
            
                 </div>
             </div>
