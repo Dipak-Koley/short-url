@@ -121,9 +121,13 @@ has an extended URL. For example, the URL.<span class="typing-2"></span></div>
 I have good experience in Google Cloud and completed many Challenges like 30 Days of Google Cloud , Google Devjam Challenges , Qwiklabs challenges and also won several goodies from Google , Amazon  and Microsoft..</p>
 <p> ` </p>
                 <h3>Dipak Koley</h3>
-                <p>Hello everyone!
-I am Dipak Koley, pursuing M.C.A from Maulana Aabul Kalam Azad University of Technology.I completed my graduation in the year 2019.
-I completed several projects using PHP, MySql, HTML, CSS, JavaScript, Bootstarp, Ajax etc. such as: <br>1)Online compilation system <br>2)Online Medisine Shop Managament <br>3)A technology Bloging website. <br>4)E-Office & Voucher management system.</p>
+                <p align="justify">Hello everyone!
+                   I am Dipak Koley, pursuing M.C.A from the Maulana Abul Kalam Azad University
+                    of Technology. I completed my graduation in the year 2019.
+                   I worked on several projects using PHP, MySql, HTML, CSS, JavaScript, 
+                   Bootstrap, Ajax, etc. such as: <br>1)Online compilation system <br>
+                   2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
+                   4)E-Office & Voucher management system.</p>
               </div>
             </div>
           </div>
