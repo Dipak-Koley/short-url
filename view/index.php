@@ -73,7 +73,7 @@
                     }
                     else
                     {
-                        echo '<a>Click Here to get started!</a>';
+                        echo '<a onclick="login_btn_click()">Click Here to get started!</a>';
                     }
                 ?>
             </div>
@@ -142,7 +142,7 @@ I have good experience in Google Cloud and completed many Challenges like 30 Day
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="">Ankit Ranjan & Dipak Koley</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By <a href="">Ankit Ranjan & Dipak Koley</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
     <script src="./js/script.js"></script>
 </body>

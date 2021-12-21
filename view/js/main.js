@@ -39,3 +39,6 @@ function status(){
 function short_url(){
      window.location.href="make_short.html";
  }
+ function login_btn_click() {
+    document.getElementById("login-btn").click();
+  }
