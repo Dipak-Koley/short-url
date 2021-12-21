@@ -109,7 +109,7 @@ has an extended URL. For example, the URL.<span class="typing-2"></span></div>
           <div class="card-block">
             <h2>About us</h2>
 
-<h3> Ankit Ranjan</h3>
+<table><tr><td>image</td><td><h3> Ankit Ranjan</h3>
               <p>I am Ankit Ranjan pursuing B.tech in Computer Science with Specialization in Open Source Software and Open Standards at Galgotias University , Uttar Pradesh , India
 
 <p> I have a good experienced in Python, Cloud Computing and SQL .</p>
@@ -119,7 +119,9 @@ has an extended URL. For example, the URL.<span class="typing-2"></span></div>
 <p> iii. Face Mask Detector </p>
 
 I have good experience in Google Cloud and completed many Challenges like 30 Days of Google Cloud , Google Devjam Challenges , Qwiklabs challenges and also won several goodies from Google , Amazon  and Microsoft..</p>
-<p> ` </p>
+                </td></tr><tr>
+                    <td>image</td>
+                <td>
                 <h3>Dipak Koley</h3>
                 <p align="justify">Hello everyone!
                    I am Dipak Koley, pursuing M.C.A from the Maulana Abul Kalam Azad University
@@ -128,6 +130,7 @@ I have good experience in Google Cloud and completed many Challenges like 30 Day
                    Bootstrap, Ajax, etc. such as: <br>1)Online compilation system <br>
                    2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
                    4)E-Office & Voucher management system.</p>
+                </td</tr></table>
               </div>
             </div>
           </div>
