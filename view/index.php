@@ -120,7 +120,7 @@ has an extended URL. For example, the URL.<span class="typing-2"></span></div>
 
 I have good experience in Google Cloud and completed many Challenges like 30 Days of Google Cloud , Google Devjam Challenges , Qwiklabs challenges and also won several goodies from Google , Amazon  and Microsoft..</p>
                 </td></tr><tr>
-                    <td>image</td>
+                    <td><img src="./image/dipak.jpg" height="200px" width="200px" style="border-radius: 50%;"></td>
                 <td>
                 <h3>Dipak Koley</h3>
                 <p align="justify">Hello everyone!
