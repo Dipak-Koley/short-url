@@ -112,7 +112,7 @@ has an extended URL. For example, the URL.<span class="typing-2"></span></div>
 <table><tr>
                     <td><img src="./image/dipak.jpg" height="200px" width="200px" style="border-radius: 50%;"></td>
                 <td>
-                <h5>Dipak Koley</h5>
+                <h2>Dipak Koley</h2>
                 <p align="justify">Hello everyone!
                    I am Dipak Koley, pursuing M.C.A from the Maulana Abul Kalam Azad University
                     of Technology. I completed my graduation in the year 2019.
@@ -121,7 +121,7 @@ has an extended URL. For example, the URL.<span class="typing-2"></span></div>
                    2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
                    4)E-Office & Voucher management system.</p><br><br><br>
                 </td</tr>
-                <tr><td><img src="./image/ankit.jpg" height="200px" width="200px" style="border-radius: 50%;"></td><td><h5> Ankit Ranjan</h5>
+                <tr><td><img src="./image/ankit.jpg" height="200px" width="200px" style="border-radius: 50%;"></td><td><h2> Ankit Ranjan</h2>
               <p>I am Ankit Ranjan pursuing B.tech in Computer Science with Specialization in Open Source Software and Open Standards at Galgotias University , Uttar Pradesh , India
 
 <p> I have a good experienced in Python, Cloud Computing and SQL .</p>
