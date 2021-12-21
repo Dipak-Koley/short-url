@@ -39,9 +39,9 @@
 
                     if(isset($_SESSION['user_id']))
                     {
-                        echo '<li><a href="javascript:void(0)" onclick="status()" class="menu-btn">Dashboard</a></li>';
-                        echo '<li><a href="javascript:void(0)" onclick="short_url()" class="menu-btn">Short URL</a></li>';
-                        echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn">Log Out</a></li>';
+                        echo '<li><a href="javascript:void(0)" onclick="status()" class="menu-btn"><font color="#c2c2c2">Dashboard</font></a></li>';
+                        echo '<li><a href="javascript:void(0)" onclick="short_url()" class="menu-btn"><font color="#c2c2c2">Short URL</font></a></li>';
+                        echo '<li><a href="javascript:void(0)" onclick="logout()" class="menu-btn"><font color="#c2c2c2">Log Out</font></a></li>';
                     }
                     else
                         echo '<li><a class="g-signin2" id="login-btn" data-onsuccess="gmailLogIn">Login with Google</a></li>';
