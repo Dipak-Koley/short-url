@@ -73,7 +73,7 @@
                     }
                     else
                     {
-                        echo '<a onclick="login_btn_click()">Click Here to get started!</a>';
+                        echo '<div onclick="login_btn_click()"><a>Click Here to get started!</a></div>';
                     }
                 ?>
             </div>
