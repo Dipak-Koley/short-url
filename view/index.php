@@ -121,6 +121,32 @@ has an extended URL. For example, the URL.</p><span class="typing-2"></span></di
                    2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
                    4)E-Office & Voucher management system.</p><br><br><br>
                 </td</tr>
+
+                <tr>
+                    <td><img src="./image/surajit.jpg" height="200px" width="200px" style="border-radius: 50%;"></td>
+                <td>
+                <h2>Surajit Biswas</h2>
+                <p align="justify">Hello everyone!
+                   I am Surajit Biswas, pursuing M.C.A from the Maulana Abul Kalam Azad University
+                    of Technology. I completed my graduation in the year 2019.
+                   I worked on several projects using PHP, MySql, HTML, CSS, JavaScript, 
+                   Bootstrap, Ajax, etc. such as: <br>1)Online compilation system <br>
+                   2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
+                   4)E-Office & Voucher management system.</p><br><br><br>
+                </td</tr>
+
+                <tr>
+                    <td><img src="./image/debesh.jpg" height="200px" width="200px" style="border-radius: 50%;"></td>
+                <td>
+                <h2>Debesh Roy</h2>
+                <p align="justify">Hello everyone!
+                   I am Debesh Roy, pursuing M.C.A from the Maulana Abul Kalam Azad University
+                    of Technology. I completed my graduation in the year 2019.
+                   I worked on several projects using PHP, MySql, HTML, CSS, JavaScript, 
+                   Bootstrap, Ajax, etc. such as: <br>1)Online compilation system <br>
+                   2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
+                   4)E-Office & Voucher management system.</p><br><br><br>
+                </td</tr>
                 </table>
               </div>
             </div>
@@ -132,7 +158,7 @@ has an extended URL. For example, the URL.</p><span class="typing-2"></span></di
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="">Ankit Ranjan & Dipak Koley</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Created By <a href="">Dipak Koley, Surajit Biswas & Debesh Roy</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
     <script src="./js/script.js"></script>
 </body>
