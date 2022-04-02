@@ -121,17 +121,7 @@ has an extended URL. For example, the URL.</p><span class="typing-2"></span></di
                    2)Online Medicine Shop Management<br> 3)A technology Blogging website. <br>
                    4)E-Office & Voucher management system.</p><br><br><br>
                 </td</tr>
-                <tr><td><img src="./image/ankit.jpg" height="200px" width="200px" style="border-radius: 50%;"></td><td><h2> Ankit Ranjan</h2>
-              <p>I am Ankit Ranjan pursuing B.tech in Computer Science with Specialization in Open Source Software and Open Standards at Galgotias University , Uttar Pradesh , India
-
-<p> I have a good experienced in Python, Cloud Computing and SQL .</p>
-<p>With the gained experience I have made several projects like :</p>
-<p> i. Facial detection </p>
-<p> ii. Face Mood Detection </p>
-<p> iii. Face Mask Detector </p>
-
-I have good experience in Google Cloud and completed many Challenges like 30 Days of Google Cloud , Google Devjam Challenges , Qwiklabs challenges and also won several goodies from Google , Amazon  and Microsoft..</p>
-                </td></tr></table>
+                </table>
               </div>
             </div>
           </div>
